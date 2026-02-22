@@ -32,5 +32,3 @@ https://www.autohotkey.com/
 ## Configuration
 
 Open the `.ahk` file in a text editor to customize key bindings or sequences.
-
-Example:
