@@ -7,15 +7,18 @@ SetKeyDelay(100, 100)
 #HotIf WinActive("ahk_exe helldivers2.exe")
 
 ; --- STRATAGEM BINDINGS (UDLR) ---
-Numpad7::   CallStratagem("RRDLRD")  ; Orbital 120mm HE Barrage
-Numpad8::   CallStratagem("RRDLRU")  ; Orbital Napalm Barrage
-Numpad9::   CallStratagem("URDDD")   ; Eagle 500kg Bomb
-Numpad4::   CallStratagem("DURL")    ; A/G-16 Gatling Sentry
-Numpad6::   CallStratagem("DURRD")   ; A/M-12 Mortar Sentry
-Numpad5::   CallStratagem("DURRU")   ; A/MG-43 Machine Gun Sentry
 Numpad1::   CallStratagem("RDLUU")   ; Orbital Gatling Barrage
 Numpad2::   CallStratagem("URUL")    ; Eagle 110mm Rocket Pods
 Numpad3::   CallStratagem("DDLUR")   ; EAT-17 Expendable Anti-Tank
+
+Numpad4::   CallStratagem("DURRU")   ; A/MG-43 Machine Gun Sentry
+Numpad5::   CallStratagem("DURL")    ; A/G-16 Gatling Sentry
+Numpad6::   CallStratagem("DURULU")  ; A/AC-8 Autocannon Sentry
+
+Numpad7::   CallStratagem("RRDLRD")  ; Orbital 120mm HE Barrage
+Numpad8::   CallStratagem("RRDLRU")  ; Orbital Napalm Barrage
+Numpad9::   CallStratagem("URDDD")   ; Eagle 500kg Bomb
+
 Numpad0::   CallStratagem("UDRLU")   ; Reinforce
 NumpadDot:: CallStratagem("DDUR")    ; Resupply
 
